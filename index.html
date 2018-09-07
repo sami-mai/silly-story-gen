@@ -11,7 +11,8 @@
   <style>
     body {
       font-family: helvetica, sans-serif;
-      width: 350px;
+      background: teal;
+      text-align: center;
     }
 
     label {
@@ -28,15 +29,25 @@
     }
 
     p {
-      background: #FFC125;
+      background: #DBC0F7;
       color: #5E2612;
       padding: 10px;
+      margin-left: 450px;
       visibility: hidden;
+      width: 350px;
+      text-align: center;
     }
   </style>
 </head>
 
 <body>
+  <div class="container">
+    <br>
+    <h1>Silly Story Generator</h1>
+    <br>
+  </div>
+  <hr>
+  <br><br><br>
   <div>
     <label for="customname">Enter custom name:</label>
     <input id="customname" type="text" placeholder="">
@@ -48,9 +59,16 @@
   <div>
     <button class="randomize">Generate random story</button>
   </div>
+  <br>
   <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
   <p class="story"></p>
+  <br><br><br><br><br>
+  <hr>
+  <!-- Footer -->
 
+  <div>
+    <h5>&copy; Sami-Mai &middot; All rights reserved.</h5>
+  </div>
 
   <script src="main.js">
   </script>
